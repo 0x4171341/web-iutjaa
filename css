@@ -1,0 +1,305 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+a {
+	color: black;
+	text-decoration: none;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url("../img/climpek.png") repeat fixed;
+	font-family: "helvetica", arial;
+	color: #fff;
+}
+
+/*header {
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	display: inline-block;
+	width: 100%;
+}
+
+header img {
+	float: left;
+	margin-left: 14.0%;
+	padding: 1%;
+	width: 6%;
+}
+
+header .nav {
+	margin-left: 26%;
+	margin-top: 3%;
+}
+header .nav > li {
+	float: left;
+	list-style: none;
+	margin-left: 4%;
+}
+
+header .nav ul li {
+	list-style: none;
+}
+
+header .nav li a {
+	color: #fff;
+	display: block;
+	font-size: 0.8em;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+
+header .nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+header .nav li:hover > ul {
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+} */
+
+
+
+#cssmenu {
+  background: url("../img/px_by_Gre3g.png") repeat fixed;
+  border-radius: 3px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#cssmenu ul {
+  list-style: none;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu ul:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+}
+#cssmenu ul li ul li {
+  display: block;
+  padding: 0;
+}
+
+#cssmenu li:hover > ul {
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	display: block;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #ffffff;
+  -webkit-transition: width .75s;
+  -moz-transition: width .75s;
+  -ms-transition: width .75s;
+  -o-transition: width .75s;
+  transition: width .75s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Contenido {
+	margin: 0 auto;
+	width: 80%;
+}
+aside#Top {
+	margin: 0% 6% 0% 0%;
+}
+aside#Top img {
+	margin: 0% 0% 2% 0.7%;
+}
+
+.box {
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	border-radius: 5%;
+	font-weight: bolder;
+	font-size: 0.85em;
+	height: 18px;
+	display: inline-block;
+	margin-top: 3%;
+	margin-left: 5.5%;
+	padding: 0.3%;
+	width: 74px;	
+}
+
+#raya {
+	border-bottom: 1px dashed #000;
+	float: inherit;
+	margin: -1.25% 0% 0% 14%;
+	width: 70%;
+}
+
+form{
+	margin-top: -1.1%;
+	float: right;
+}
+
+aside#Contenido-I {
+	float: left;
+	width: 22%;
+}
+#Contenido-C {
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+	width: 56%;
+}
+
+aside#Contenido-D {
+	float: right;
+	width: 20%;	
+}
+aside#Contenido-I article a {
+	color: #000;
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: left;
+	text-decoration: none;
+}
+
+#Contenido-C article, aside#Contenido-I article, aside#Contenido-D article {
+	background: #fff;
+	color: #000;
+	margin-bottom: 8%;
+	text-align: justify;
+	padding: 2.5%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+article h2{
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	color: #ffffff;
+	font-size: 0.85em;
+	font-family: 'Open Sans', sans-serif;
+	height: 25px;
+	margin-left: -5.5%;
+	margin-top: -5.5%;
+	text-align: center;
+	padding: 2%;
+	width: 107%;
+}
+
+article .triangulo {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 10px solid #3b3b3b;
+}
+
+.sub {
+	background: url("../img/px_by_Gre3g.png") repeat fixed;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	margin: 7px 0px 15px 0px;
+	padding: 5px;
+	width: 55px;
+}
+
+.caja, .caja-d {
+	width:120px; 
+	height:16px;
+    border:1px solid #999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	margin:8px 6px;
+	padding:5px;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+	background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+	box-shadow: rgba(1,0,0,0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+} 
+.caja-d {
+	margin-top: -5%;
+}
+.Info-A {
+	font-size: 0.75em;
+}
+h3 {
+	font-size: 1.2em;
+}
+ p {
+ 	line-height: 26px;
+ }
